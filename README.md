@@ -34,6 +34,20 @@ the module itself in a very pythonic way.
 pip install -r requirements.txt
 ```
 
+# Requirements:
+```
+  Postgresql
+```
+
+# Environment variables
+```
+export DB_NAME="db_name"
+export DB_PASSWORD="db_password"
+export DB_USERNAME="db_username"
+export DB_HOST="localhost"
+export DEBUG = False
+```
+
 Before begining you need to migrate tables
 
 Perform migration by
